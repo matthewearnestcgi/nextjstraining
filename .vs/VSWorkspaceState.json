@@ -2,12 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\about",
-    "\\app\\api",
-    "\\app\\apipage",
-    "\\app\\components",
-    "\\public"
+    "\\app\\components"
   ],
-  "SelectedNode": "\\app\\components\\navigation.js",
+  "SelectedNode": "\\app\\page.js",
   "PreviewInSolutionExplorer": false
 }
