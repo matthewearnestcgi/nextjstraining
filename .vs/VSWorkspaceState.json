@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\components"
+    "\\app\\about",
+    "\\app\\apipage",
+    "\\app\\components",
+    "\\app\\styles"
   ],
-  "SelectedNode": "\\app\\page.js",
+  "SelectedNode": "\\app\\about\\page.js",
   "PreviewInSolutionExplorer": false
 }
