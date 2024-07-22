@@ -1,7 +1,10 @@
+// ApiPage.js
+import React, { Suspense } from 'react';
 import fetch from 'node-fetch';
 import https from 'https';
 import styles from '../styles/Home.module.css';
 import ApiComponent from '../components/ApiComponent';
+import Skeleton from '../components/Skeleton';
 
 // Create an agent to bypass SSL certificate validation
 const agent = new https.Agent({
@@ -18,13 +21,18 @@ async function fetchData() {
     return { planet: planetData, weather: weatherData };
 }
 
-export default async function ApiPage() {
+// suspense boundary added
+const ApiPage = async () => {
     const { planet, weather } = await fetchData();
 
     return (
         <div className={styles.container}>
             <h1>API Page</h1>
-            <ApiComponent planet={planet} weather={weather} />
+            <Suspense fallback={<Skeleton />}>
+                <ApiComponent planet={planet} weather={weather} />
+            </Suspense>
         </div>
     );
-}
+};
+
+export default ApiPage;
