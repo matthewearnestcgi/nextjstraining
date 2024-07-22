@@ -3,6 +3,7 @@
     "",
     "\\app",
     "\\app\\about",
+    "\\app\\api",
     "\\app\\apipage",
     "\\app\\components",
     "\\app\\styles"

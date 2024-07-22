@@ -7,24 +7,36 @@ import styles from '../styles/ContactForm.module.css';
 export default function ContactForm() {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const [responseMessage, setResponseMessage] = useState('');
+    const [loading, setLoading] = useState(false);
 
-    // Local API handler for testing purposes
     const sendMessage = async (data) => {
-        // Simulate an API call with a delay
-        return new Promise((resolve) => {
-            setTimeout(() => {
-                resolve({ message: 'Sent' });
-            }, 1000);
-        });
+        try {
+            const response = await fetch('/api', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            });
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return await response.json();
+        } catch (error) {
+            console.error('There was a problem with the fetch operation:', error);
+            throw error;
+        }
     };
 
     const onSubmit = async (data) => {
+        setLoading(true);
         try {
             const result = await sendMessage(data);
             setResponseMessage(result.message);
         } catch (error) {
-            console.error('There was a problem with the operation:', error);
             setResponseMessage('Failed to send message');
+        } finally {
+            setLoading(false);
         }
     };
 
@@ -39,15 +51,15 @@ export default function ContactForm() {
                 </div>
                 <div className={styles.formGroup}>
                     <label htmlFor="email" className={styles.label}>Email:</label>
-                    <input id="email" {...register('email', { required: true })} />
-                    {errors.email && <span className={styles.errorMessage}>Email is required</span>}
+                    <input id="email" type="email" {...register('email', { required: 'Email is required' })} />
+                    {errors.email && <span className={styles.errorMessage}>{errors.email.message}</span>}
                 </div>
                 <div className={styles.formGroup}>
                     <label htmlFor="message" className={styles.label}>Message:</label>
                     <textarea id="message" {...register('message')}></textarea>
                 </div>
-                <button className={styles.button} type="submit">Save</button>
-                <button className={styles.button} type="button" onClick={() => { reset(); setResponseMessage(''); }}>Reset</button>
+                <button className={styles.button} type="submit" disabled={loading}>Send</button>
+                <button className={styles.button} type="button" onClick={() => { reset(); setResponseMessage(''); }} disabled={loading}>Reset</button>
             </form>
             {responseMessage && <p className={styles.responseMessage}>{responseMessage}</p>}
         </div>
