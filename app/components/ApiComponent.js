@@ -1,42 +1,17 @@
-'use client';
+import React from 'react';
 
-import React, { useState, useEffect } from 'react';
-import Skeleton from "../components/Skeleton.js"
-import https from 'https';
+async function fetchData() {
+    const planetRes = await fetch('https://api.le-systeme-solaire.net/rest/bodies/earth');
+    const planetData = await planetRes.json();
 
-// Create an agent to bypass SSL certificate validation
-const agent = new https.Agent({
-    rejectUnauthorized: false
-});
+    const weatherRes = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&hourly=temperature_2m`);
+    const weatherData = await weatherRes.json();
 
-export default function ApiComponent() {
-    const [loading, setLoading] = useState(true);
-    const [planet, setPlanet] = useState(null);
-    const [weather, setWeather] = useState(null);
+    return { planet: planetData, weather: weatherData };
+}
 
-    useEffect(() => {
-        async function fetchData() {
-            try {
-                const planetRes = await fetch('https://api.le-systeme-solaire.net/rest/bodies/earth', { agent });
-                const planetData = await planetRes.json();
-                setPlanet(planetData);
-
-                const weatherRes = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&hourly=temperature_2m`, { agent });
-                const weatherData = await weatherRes.json();
-                setWeather(weatherData);
-            } catch (error) {
-                console.error('Error fetching data:', error);
-            } finally {
-                setLoading(false);
-            }
-        }
-
-        fetchData();
-    }, []);
-
-    if (loading) {
-        return <Skeleton />;
-    }
+export default async function ApiComponent() {
+    const { planet, weather } = await fetchData();
 
     return (
         <div>
