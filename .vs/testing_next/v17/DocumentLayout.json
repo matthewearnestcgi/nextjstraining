@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\apipage\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\apipage\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\skeleton.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\components\\skeleton.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\navigation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\components\\navigation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\ContactForm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\components\\ContactForm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\ApiComponent.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\components\\ApiComponent.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\skeleton.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\components\\skeleton.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\apipage\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\apipage\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\about\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\about\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\api\\route.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\api\\route.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\layout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -23,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\ContactForm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\components\\ContactForm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\styles\\About.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\styles\\About.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -35,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\globals.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\about\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\about\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\styles\\ContactForm.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\styles\\ContactForm.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\navigation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\components\\navigation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,16 +58,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 249,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "skeleton.js",
-              "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\skeleton.js",
-              "RelativeDocumentMoniker": "app\\components\\skeleton.js",
-              "ToolTip": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\skeleton.js",
-              "RelativeToolTip": "app\\components\\skeleton.js",
+              "DocumentIndex": 6,
+              "Title": "route.js",
+              "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\api\\route.js",
+              "RelativeDocumentMoniker": "app\\api\\route.js",
+              "ToolTip": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\api\\route.js",
+              "RelativeToolTip": "app\\api\\route.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-23T19:24:39.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Skeleton.js",
+              "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\Skeleton.js",
+              "RelativeDocumentMoniker": "app\\components\\Skeleton.js",
+              "ToolTip": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\Skeleton.js",
+              "RelativeToolTip": "app\\components\\Skeleton.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-07-22T13:58:42.663Z",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ContactForm.module.css",
               "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\styles\\ContactForm.module.css",
               "RelativeDocumentMoniker": "app\\styles\\ContactForm.module.css",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "About.module.css",
               "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\styles\\About.module.css",
               "RelativeDocumentMoniker": "app\\styles\\About.module.css",
@@ -95,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "globals.css",
               "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\globals.css",
               "RelativeDocumentMoniker": "app\\globals.css",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "page.js",
               "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\page.js",
               "RelativeDocumentMoniker": "app\\page.js",
@@ -120,70 +137,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "layout.js",
               "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\layout.js",
               "RelativeDocumentMoniker": "app\\layout.js",
               "ToolTip": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\layout.js",
               "RelativeToolTip": "app\\layout.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-07-19T18:31:17.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "navigation.js",
-              "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\navigation.js",
-              "RelativeDocumentMoniker": "app\\components\\navigation.js",
-              "ToolTip": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\navigation.js",
-              "RelativeToolTip": "app\\components\\navigation.js",
+              "DocumentIndex": 1,
+              "Title": "Navigation.js",
+              "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\Navigation.js",
+              "RelativeDocumentMoniker": "app\\components\\Navigation.js",
+              "ToolTip": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\Navigation.js",
+              "RelativeToolTip": "app\\components\\Navigation.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-19T18:31:10.604Z"
+              "WhenOpened": "2024-07-19T18:31:10.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ApiComponent.js",
               "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\ApiComponent.js",
               "RelativeDocumentMoniker": "app\\components\\ApiComponent.js",
               "ToolTip": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\ApiComponent.js",
               "RelativeToolTip": "app\\components\\ApiComponent.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-07-19T18:31:03.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "page.js",
               "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\apipage\\page.js",
               "RelativeDocumentMoniker": "app\\apipage\\page.js",
               "ToolTip": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\apipage\\page.js",
               "RelativeToolTip": "app\\apipage\\page.js",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-07-19T18:30:59.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "page.js",
               "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\about\\page.js",
               "RelativeDocumentMoniker": "app\\about\\page.js",
               "ToolTip": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\about\\page.js",
               "RelativeToolTip": "app\\about\\page.js",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-19T18:30:55.963Z"
+              "WhenOpened": "2024-07-19T18:30:55.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ContactForm.js",
               "DocumentMoniker": "C:\\Users\\matthew.earnest\\Downloads\\testing_next\\app\\components\\ContactForm.js",
               "RelativeDocumentMoniker": "app\\components\\ContactForm.js",

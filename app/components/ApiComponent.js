@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Skeleton from "@/app/components/skeleton.js"
+import Skeleton from "../components/Skeleton.js"
 import https from 'https';
 
 // Create an agent to bypass SSL certificate validation

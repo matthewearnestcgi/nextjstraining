@@ -6,8 +6,9 @@
     "\\app\\api",
     "\\app\\apipage",
     "\\app\\components",
-    "\\app\\styles"
+    "\\app\\styles",
+    "\\public"
   ],
-  "SelectedNode": "\\app\\apipage\\page.js",
+  "SelectedNode": "\\app\\components\\skeleton.js",
   "PreviewInSolutionExplorer": false
 }

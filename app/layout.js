@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navigation from "../app/components/navigation"
+import Navigation from "../app/components/Navigation"
 
 
 export const metadata = {
